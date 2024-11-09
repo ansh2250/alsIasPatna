@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+        --brand-color: #BB2D3B;
+        --brand-blue: #2A649D;
+        --brand-heading: #FFC107;
+        --brand-light:#ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--brand-color) !important;
+}
+
+.heading-text {
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--brand-color);
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.301);
+}
+
+.heading-title {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--brand-blue);
+}
+h4{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size:17px;
+    font-weight: 400;
+    text-align:justify;
+    letter-spacing: -0.5px;      /* Set letter spacing */
+    line-height: 1.5;         /* Set line spacing */
+}
+
+
+li{
+    text-align: left;
+}
+
+/* whatsapp conectivity */
+/* fixed button */
+  /* Fixed button styles */
+  .fixed-enquiry-btn {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    background-color: var(--brand-color);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .fixed-enquiry-btn:hover {
+    background-color: darkred;
+  }
+
+  .modal-header {
+    background-color: var(--brand-color);
+    color:white;
+  }
+
+  .modal-footer .btn{
+    background-color:var(--brand-color);
+    color: white;
+  }
+  .btn-brand {
+    background-color: var(--brand-color);
+    color: #fff;
+  }
+
+  .btn-brand:hover {
+    background-color: darkred;
+    color: #fff;
+  }
+
+  .form-label {
+    color: var(--brand-blue);
+  }
+  .modal-body {
+    max-height: 70vh; /* Set max height for the modal body */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+  }
+
+.fixed-buttons{
+    position: fixed;
+    right: -1px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fixed-buttons img{
+    width: 50px;
+  }
+  
+
+  /* click to slide */
+  #about_us{
+    height: 40px;
+  }

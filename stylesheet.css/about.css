@@ -1,0 +1,262 @@
+.about_Company{
+    width:100%;
+    height:200px;
+    padding:25px;
+    background-color:var(--brand-blue);
+    color:var(--brand-light);
+    display: flex;
+    justify-content:flex-end;
+    align-items:start;
+    flex-direction: column;
+}
+
+.about_Company h3{
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+.about_Company p{
+    color:var(--brand-heading);
+    font-style: italic;
+}
+
+
+
+
+.detail{
+    background-color:var(--brand-light);
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    position:sticky;
+    top:80px;
+
+}
+.detail li{
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    color: #333;
+    list-style-type:none ;
+}
+
+.detail a{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:600;
+    color:var(--brand-color);
+    line-height:1;
+}
+
+.detail a:hover{
+    color:black;
+}
+
+.detail h3{
+    background-color:var(--brand-color);
+    font-family: poppins;
+    font-weight: 600;
+    font-size:18px;
+    padding:6px 30px;
+    margin-bottom:30px;
+    text-align: center;
+    color:var(--brand-light);
+}
+
+#content{
+    background-color:rgba(0, 0, 0, 0.342);    
+}
+.child_content{
+    background-color:white;
+    border-radius:12px;
+    margin-bottom: 22px;
+    border-radius: 5px 5px 0 0;
+}
+
+.child_content p{
+    font-size: 15px;
+}
+/* .child_content img{
+    width:150px;
+    box-shadow:2px 2px 2px gray;
+    border-radius:5px;
+    padding:2px;
+    margin-bottom:12px;
+} */
+
+
+/* our padoagogy */
+
+/* Container Styling */
+.teaching-methodology-content {
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 22px;
+}
+
+/* Headings Styling */
+.teaching-methodology-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #bb2d3b; /* Accent color */
+    padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+.teaching-methodology-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+}
+
+/* List Styling */
+.teaching-methodology-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.teaching-methodology-content ul > li {
+    margin: 0.8rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.teaching-methodology-content ul > li::before {
+    content: "•";
+    color: #bb2d3b; /* Bullet accent color */
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Nested List Styling */
+.teaching-methodology-content ul ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.teaching-methodology-content ul ul > li {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Strong Text Styling */
+.teaching-methodology-content strong {
+    color: #2a649d; /* Brand blue color */
+    font-weight: 600;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .teaching-methodology-content {
+        padding: 2rem;
+    }
+    .teaching-methodology-content h3 {
+        font-size: 1.3rem;
+    }
+    .teaching-methodology-content ul > li {
+        font-size: 0.95rem;
+    }
+}
+
+
+/* location js */
+.office-locations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.office-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.office-header {
+    background-color: #2A649D; /* Primary color */
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* .office-header::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+    width: 40px;
+    height: 2px;
+    background-color: #2A649D;
+} */
+
+.office-card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .office-locations {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+.section {
+    padding: 80px 0;
+}
+.section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.section-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.section.bg-light {
+    background-color: #f8f9fa;
+}
+.highlight {
+    color: var(--brand-color);
+}
+.faculty-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.icon-box {
+    font-size: 50px;
+    color: var(--brand-color);
+}

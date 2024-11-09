@@ -1,0 +1,170 @@
+.course {
+    width: 100%;
+    height: auto;
+    background-image: url("/images/ALS\ Background.jpg");
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    /* background-attachment: fixed; */
+    /* display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center; */
+}
+
+.course h1,
+strong {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-light {
+    width: 80%;
+    font-size: 1rem;
+}
+.btn-light:hover {
+    background-color: var(--brand-color) !important;
+    color: #ffffff !important;
+}
+
+.btn-danger {
+    width: 60%;
+    font-size: 1rem;
+}
+
+.border-left,
+.border-right {
+    /* border: 1px solid black; */
+    background-color: var(--brand-heading);
+    border-radius: 20px;
+    padding: 20px;
+    height: 260px;
+}
+
+.course-row {
+    padding: 30px;
+}
+
+.border-left {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.border-right {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cta h3 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* From Uiverse.io by adamgiebl */
+/* .course_card {
+    flex: 1;
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    margin: auto;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  } */
+
+.course_card {
+    flex: 1;
+    width: 100%;
+    border-radius: 30px;
+    background: #f7f7f7;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+    padding: 20px;
+    transition: 0.4s ease;
+    border: 3px solid #e6e6e6;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; Ensures content is spaced evenly within the card */
+}
+
+.top-card {
+    height: auto;
+}
+
+.bottom-card {
+    height:auto;
+}
+
+.course_card li {
+    color: black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.cards :hover {
+    background-color: var(--brand-heading);
+    transition: 0.4s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .course-row {
+        flex-direction: column;
+    }
+    .course-row h1 {
+        font-weight: bold;
+    }
+
+    .border-left,
+    .border-right {
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .border-right {
+        margin-top: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course_card {  
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .course_card h5 {
+        font-size: 18px;
+        font-weight: 800 !important;
+    }
+}
+
+/* BATCHES */
+/* #list-hide{
+    display: none;
+}
+
+#list-pragyan{
+    display: none;
+} */
+
+.list-hide{
+    display: none;
+}
+
+.btn-more{
+    text-decoration: none;
+    color: var(--brand-color);
+}

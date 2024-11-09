@@ -1,0 +1,70 @@
+.contact-section, .office-locations, .faq-section, .opening-hours-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.social-icons i {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.location-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.faq-section h5 {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.opening-hours-section ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.social-icons .list-inline-item a{
+    list-style-type: none;
+    text-decoration: none;
+    color:var(--brand-blue);
+}
+.social-icons .list-inline-item a i{
+
+    text-decoration:none;
+    list-style-type:none;
+    color:black;
+}
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .contact-section .col-md-6, .faq-section .col-md-6 {
+        margin-bottom: 20px;
+    }
+}

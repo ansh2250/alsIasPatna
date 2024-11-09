@@ -1,0 +1,200 @@
+.bredcurmbs{
+    padding:12px 25px;
+    background-color: var(--brand-color);
+    color:var(--brand-heading);
+}
+.bredcurmbs a{
+    list-style: none;
+    text-decoration: none;
+    color:var(--brand-light);
+}
+.gallery-header-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.gallery-header-area {
+    width: 100%;
+    height: 100%;
+    position: relative; /* Positioning context for child elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1; /* Keep the video behind other content */
+    transform: translate(-50%, -50%); /* Center the video */
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 2; /* Keep content above the video */
+    color: white; /* Adjust text color for visibility */
+    text-align: center; /* Center the text */
+}
+
+.content-overlay h1{
+    color:var(--brand-light)!important;
+}
+.content-overlay p{
+    text-align: center;
+    color:var(--brand-light);
+}
+
+.gallery-header-content{
+    width: 60%;.gallery-header-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.gallery-header-area {
+    width: 100%;
+    height: 100%;
+    position: relative; /* Positioning context for child elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1; /* Keep the video behind other content */
+    transform: translate(-50%, -50%); /* Center the video */
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 2; /* Keep content above the video */
+    color: white; /* Adjust text color for visibility */
+    text-align: center; /* Center the text */
+}
+
+    margin: 0 auto;
+    color: #fff
+}
+
+/* Gallery Image Section Starts */
+
+.gallery-section {
+    background-color: #ffffff; /* Set background color to white */
+    padding: 50px 0 100px 0;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 30px 0;
+}
+.gallery li { 
+    display: none;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+.logo-gallery {
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+.logo-gallery img {
+    border: .5px solid #eeeeee;
+    /* filter: grayscale(1); */
+    cursor: pointer;    
+    transition: filter 0.3s ease; /* Smooth transition on hover */
+}
+/* .logo-gallery img:hover {
+    filter: grayscale(0);
+} */
+.more, .less {
+    clear: both;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    padding: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 320px;
+}
+.lightbox {
+    display: none; /* Keep it hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.lightbox-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+.close {
+    position: absolute;
+    top: 10%; /* Position at the top */
+    right: 30px; /* Adjust the right distance */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.prev {
+    left: 40px; /* Space from the left */
+}
+
+.next {
+    right: 40px; /* Space from the right */
+}
+
+@media screen and (max-width: 768px) {
+    .logo-gallery {
+        grid-template-columns: auto auto;
+    }
+}
