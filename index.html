@@ -67,7 +67,7 @@
             </ul>
           </li>
 
-                <!-- Dropdown for About Us -->
+                <!-- Dropdown for About UPSC -->
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="upsc.html" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About UPSC</a>
                   <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -80,7 +80,19 @@
                     <li><a href="upsc.html" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
                   </ul>
                 </li>
-      
+
+                 <!-- Dropdown for About BPSC -->
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="bpsc.html" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About BPSC</a>
+                   <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                     <li><a href="bpsc.html" class="dropdown-item" onclick="loadContent('scheme_Exam_Bpsc')">Scheme of the Exam</a></li>
+                     <li><a href="bpsc.html" class="dropdown-item" onclick="loadContent('Eligibility_Bpsc')">Eligibility</a></li>
+                     <li><a href="bpsc.html" class="dropdown-item" onclick="loadContent('services_Offered_Bpsc')">Services Offered</a></li>
+                     <li><a href="bpsc.html" class="dropdown-item" onclick="loadContent('syllabous_Bpsc')">Syllabus of UPSC Exam</a></li>
+                     <li><a href="bpsc.html" class="dropdown-item" onclick="loadContent('apply_Bpsc')">How to Apply</a></li>
+                   </ul>
+                 </li>
+
           <li class="nav-item"><a class="nav-link" href="course.html">Courses</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
           <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
@@ -136,17 +148,17 @@
         <div class="enquiry-section w-100 p-4">
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="a2176c91-372d-4853-a2a9-1a6d9af36d8f">
-                
+
                 <div class="form-group mb-3">
                     <label for="name">Name</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name" required>
                 </div>
-    
+
                 <div class="form-group mb-3">
                     <label for="mobile">Mobile Number</label>
                     <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
                 </div>
-    
+
                 <!-- Enquiry Type Dropdown -->
                 <div class="form-group mb-3">
                     <label for="testType">Enquiry Type</label>
@@ -160,14 +172,14 @@
                         <option value="other">Gems of Five Programme</option>
                     </select>
                 </div>
-    
+
                 <!-- Additional Message -->
                 <div class="form-group mb-3">
                     <label for="message">Additional Information (Optional)</label>
                     <textarea class="form-control" id="message" name="message" rows="3"
                         placeholder="Provide any additional information here..."></textarea>
                 </div>
-    
+
                 <div class="d-flex justify-content-between mt-4">
                     <button type="reset" class="btn btn-dark">Cancel</button>
                     <button type="submit" class="btn btn-dark">Submit</button>
@@ -175,7 +187,7 @@
             </form>
         </div>
     </div>
-    
+
     </div>
   </div>
   <!-- End Header -->
@@ -331,117 +343,7 @@
   </div>
   <!-- End Why Us -->
 
-  <!-- *************************************************** -->
 
-  <!-- result -->
-
-  <!-- <section class="result-section">
-      <div class="container">
-        <div class="section-header">
-          <h2>We Are Honoured</h2>
-          <p class="text-white">Honoured to have been associated with each one of you as our students. Thank you for being a part of the ALS
-            Family.</p> 
-        </div>
-  
-        <div class="row text-center">
-       
-          <div class="col-md-4">
-            <div class="card topper-card">
-              <img src="images/Air_rank/P K Sidharth Ramkumar.jpg" alt="Topper 1">
-              <div class="card-body">
-                <h5>P K Sidharth Ramkumar</h5>
-                <p>AIR - 4 (2024)</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card topper-card">
-              <img src="images/Air_rank/Shaurya_Arora.jpg" alt="Topper 2">
-              <div class="card-body">
-                <h5>Shaurya Arora</h5>
-                <p>AIR - 14 (2024)</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card topper-card">
-              <img src="images/Air_rank/Anshul Bhatt.jpg" alt="Topper 2">
-              <div class="card-body">
-                <h5>Anshul Bhatt </h5>
-                <p>AIR - 22 (2024)</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card topper-card">
-              <img src="images/Air_rank/Arti_shukla.jpg" alt="Topper 2">
-              <div class="card-body">
-                <h5>Arti Shukla</h5>
-                <p>AIR - 4 (2016)</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card topper-card">
-              <img src="images/Air_rank/ira_singhal.jpg" alt="Topper 2">
-              <div class="card-body">
-                <h5>Ira Singhal</h5>
-                <p>AIR - 14 (2015)</p>
-              </div>
-            </div>
-          </div>
-        
-        </div>
-  
-        <div class="row text-center mt-5">
-       
-          <div class="col-md-3">
-            <div class="card topper-card">
-              <img src="images/Air_rank/durishettry.jpg" alt="Topper 1">
-              <div class="card-body">
-                <h5>Durishetty Amandeep</h5>
-                <p>AIR - 1 (2018)</p>
-              </div>
-            </div>
-          </div>
-      
-      
-          <div class="col-md-3">
-            <div class="card topper-card">
-              <img src="images/Air_rank/rukmani_riyar.jpg" alt="Topper 2">
-              <div class="card-body">
-                <h5>Rukmani Riar</h5>
-                <p>AIR - 2 (2012)</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card topper-card">
-              <img src="images/Air_rank/s_nagarajan.jpg" alt="Topper 2">
-              <div class="card-body">
-                <h5>S. Nagarjan</h5>
-                <p>AIR - 1 (2005)</p>
-              </div>
-            </div>
-          </div>
-  
-  
-        </div>
-  
-        <div class="mt-5">
-          <h3 class="text-center">Holistic Education</h3>
-          <p class="text-center text-white">We believe in providing a holistic education that not only covers the syllabus but also
-            instills confidence and critical thinking skills in our students...</p>
-        </div>
-  
-        <div class="mt-4">
-          <h3 class="text-center">Pride in Your Success</h3>
-          <p class="text-center text-white">Your success is our success, and we take immense pride in every accomplishment of our
-            students...</p>
-        </div>
-      </div>
-    </section>
-   -->
 
 
   <div class="container">
@@ -488,469 +390,189 @@
       </div>
     </div>
   </div>
-  
 
-  <!-- Course Detail -->
-  <section id="detail" class="details">
-    <div class="container">
+<!-- Batches and Series -->
+
+  <div class="main_container">
+    <div class="container batch_series"> 
+
+      <h3 class="text-center text-white p-3">BATCHES & SERIES</h3>
       <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <div class="heading">
-            <h2 style="color:#ffffff; font-weight:600;">COURSES & TEST SERIES</h2>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/Srijan_Batch.png" class="img-fluid" alt="Srijan Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Srijan Batch</p>
+                <p>
+                  One To One Mentorship<br>
+                  Special Doubt Session Classes<br>
+                  Skill Development For Interview<br>
+                  Current Affairs Based Classes<br>
+                  Special Focus On Answer Writing
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/pragyan_btach.png" class="img-fluid" alt="Pragyan Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Pragyan Batch</p>
+                <p>
+                  class में questions पूछने का खुला मंच<br>
+                  उत्तर लेखन पर विशेष Focus<br>
+                  Current Affairs का weekly class<br>
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/Dhrnadhar_batch.png" class="img-fluid" alt="Dhrnadhar Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Dhurnadhar Batch</p>
+                <p>
+                  15 Free Full-Length Tests<br>
+                  Daily 50 MCQs Practice Set After Class<br>
+                  Special Sessions on Current Affairs<br>
+                  Updated Study Material<br>
+              </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="row mb-5">
-
-        <div class="row mb-5">
-          <div class="col-md-4 col-sm-4">
-            <div class="content-block">
-              <figure class="shadow">
-                <img src="images/course/Srijan_Batch.png" class="img-responsive" alt="img01" style="height: 252px;">
-                <a href="#">
-                  <figcaption>
-                    <h4>सृजन बैच </h4>
-                    <span>
-                      <p>
-                        One To One Mentorship<br>
-                        Special Doubt Session Classes<br>
-                        Skill Development For Interview<br>
-                        Current Affairs Based Classes<br>
-                        Special Focus On Answer Writing
-                    </p>
-                    
-                    </span>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-          </div>
-  
-          
-          <!-- <div class="col-md-4 col-sm-4">
-            <div class="content-block">
-              <figure class="shadow">
-                <img src="images/course/Awlokan_batch.png" class="img-responsive" alt="img01" style="height: 252px;">
-                <a href="#">
-                  <figcaption>
-                    <h4>अवलोकन बैच</h4>
-                    <span>
-                      <ol>
-                        <li>Based on New Exam Pattern of BPSC</li>
-                        <li>Offline and Online Test Discussions</li>
-                        <li>Special Focus on Current Affairs Questions</li>
-                        <li>One-to-One Mentorship</li>
-                      </ol>
-                    </span>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-          </div> -->
-
-          <div class="col-md-4 col-sm-4">
-            <div class="content-block">
-              <figure class="shadow">
-                <img src="images/course/pragyan_btach.png "class="img-responsive" alt="img01" style="height: 252px;">
-                <a href="#">
-                  <figcaption>
-                    <h4>Pragyan Batch</h4>
-                    <span>
-                      <p>
-                        class में questions पूछने का खुला मंच<br>
-                        class के अंदर तथा बाहर faculty के साथ Discussion का मौका<br>
-                        प्रत्येक Topic पर नये Exam Pattern के अनुसार Assignments<br>
-                        प्रत्येक Topic पर weekly Prelims तथा Mains Exam के लिए Test Series<br>
-                        उत्तर लेखन पर विशेष Focus<br>
-                        Current Affairs का weekly class<br>
-                        बच्चों के मध्य महत्वपूर्ण मुद्दों पर वाद-विवाद प्रतियोगिता का आयोजन<br>
-                        पूरे कोर्स के दौरान हमारी पूरी शिक्षक की Team की मार्गदर्शन छात्रों के साथ
-                    </p>
-                    
-                    </span>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-          </div>
-  
-  
-          <div class="col-md-4 col-sm-4">
-            <div class="content-block">
-              <figure class="shadow">
-                <img src="images/course/Dhrnadhar_batch.png" class="img-fluid" alt="img01" style="height: 252px;">
-                <a href="#">
-                  <figcaption>
-                    <h4>धुरंधर बैच </h4>
-                    <span>
-                      <p>
-                        350 Hours of Classes + 50 Hours of Current Affairs Classes<br>
-                        15 Free Full-Length Tests<br>
-                        Daily 50 MCQs Practice Set After Class<br>
-                        Special Sessions on Current Affairs<br>
-                        Updated Study Material<br>
-                        Daily Printed Handouts<br>
-                        Topic-Wise PYQs (Previous Year Questions) Discussion for both UPSC and BPSC
-                    </p>
-                    
-                    </span>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-4">
-          <div class="content-block">
-            <figure class="shadow">
-              <img src="images/course/Nehru_batch.png" class="img-fluid" alt="img01" style="height: 252px;">
-              <a href="#">
-                <figcaption>
-                  <h4>नेहरू पथ बैच</h4>
-                  <span>
-                    <p>
-                      Whole Coverage of Mains Syllabus (GS Paper I + Paper II + Essay)<br>
-                      500+ Question Mains Answer Writing and Answer Discussion<br>
-                      Mode: Both Offline and Online (Live + Recorded)<br>
-                      350+ Hours Program<br>
-                      One-to-One Mentorship<br>
-                      Special Session for Current Affairs<br>
-                      Doubt Clearing Sessions<br>
-                      Both Hard Copy and Soft Copy of Handouts on Each Topic<br>
-                      Experienced and Specialized Faculties for Every Subject
-                  </p>
-                  
-
-                  </span>
-                </figcaption>
-              </a>
-            </figure>
-          </div>
-        </div>
-        
-        <div class="col-md-4 col-sm-4">
-          <div class="content-block">
-            <figure class="shadow">
-              <img src="images/course/course_batch_.png" class="img-responsive" alt="img01" style="height: 252px;">
-              <figcaption>
-                <h4>Gems Of Five Batch</h4>
-                <span>
-                  <p>
-                    Only five students in each batch.<br>
-                    Personalized weekly target.<br>
-                    Daily practice papers for prelims and mains.<br>
-                    Personal care by every subject expert.<br>
-                    A private platform for group discussion.<br>
-                    Special focus on answer writing.<br>
-                    Special batch for developing qualities of a civil servant.
-                </p>
-                
-                </span>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-4">
-          <div class="content-block">
-            <figure class="shadow">
-              <img src="images/course/stambh_batch.png" class="img-responsive" alt="img01" style="height: 252px;">
-              <a href="#">
-                <figcaption>
-                  <h4>स्तंभ बैच</h4>
-                  <span>
-                    <p>
-                      Specially Designed Course for Cracking UPSC/BPSC/Any Other PCS Exam<br>
-                      One to One Evaluation<br>
-                      One to One Mentorship
-                  </p>
-                  
-                  </span>
-                </figcaption>
-              </a>
-            </figure>
-          </div>
-        </div>
-
-        
-      </div>
-
       <div class="row">
-        <div class="col-md-4 col-sm-4">
-          <div class="content-block">
-            <figure class="shadow">
-              <img src="images/course/Sadhna_Series.png" class="img-fluid" alt="img01" style="height: 252px;">
-              <a href="#">
-                <figcaption>
-                  <h4>Sadhan Mains Test Series</h4>
-                  <h6>For BPSC + UPSC</h6>
-                  <span>
-                    <p>
-                      One-to-One Evaluation<br>
-                      Offline and Online Test Discussions<br>
-                      One-to-One Mentorship<br>
-                      Special Focus on Current Affairs Questions
-                  </p>
-                  
-                  </span>
-                </figcaption>
-              </a>
-            </figure>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/Nehru_batch.png" class="img-fluid" alt="Nehru Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Nehru Batch</p>
+                <p>
+                  Mode: Both Offline and Online (Live + Recorded)<br>
+                  350+ Hours Program<br>
+                  One-to-One Mentorship<br>
+                  Special Session for Current Affairs<br>
+                  Doubt Clearing Sessions<br>
+              </p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="col-md-4 col-sm-4">
-          <div class="content-block">
-            <figure class="shadow"> 
-              <img src="images/course/Awlokan_batch.png" class="img-responsive" alt="img01" style="height: 252px;"> 
-              <a href="#">
-                <figcaption>
-                  <h4>Avlokan Prelims Test Series - BPSC + UPSC</h4>
-                  <span>
-                    <p>
-                      Based on New Exam Pattern of BPSC<br>
-                      Offline and Online Test Discussions<br>
-                      Special Focus on Current Affairs Questions<br>
-                      One-to-One Mentorship
-                  </p>
-                  
-                  </span>
-                </figcaption>
-              </a>
-            </figure>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/gemsOfFive.png" class="img-fluid" alt="Gems of Five">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Gems of Five</p>
+                <p>
+                  Only five students in each batch.<br>
+                  Personalized weekly target.<br>
+                  Daily practice papers for prelims and mains.<br>
+                  Personal care by every subject expert.<br>
+                  A private platform for group discussion.<br>
+              </p>
+              </div>
+            </div>
           </div>
         </div>
-
-
-        <div class="col-md-4 text-center d-flex justify-content-center align-items-center flex-column">
-          <h3> ALS IAS COURSES</h3>
-          <p class="text-white">General Studies is an extremely dynamic component in the entire scheme of Civil Services
-            Examination. It
-            deals with diverse subject matter that is constantly evolving intune with new developments. Through the
-            constant effort of the ALS Team, GS Course has been upgraded and enriched in response to the rapidly
-            changing needs.</p>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/stambh_batch.png" class="img-fluid" alt="Stambh Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Stambh Batch</p>
+                <p>
+                  Specially Designed Course for Cracking <br>UPSC/BPSC/Any Other PCS Exam<br>
+                  One to One Evaluation<br>
+                  One to One Mentorship
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/Prarambh_batch.png" class="img-fluid" alt="Prarambh Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Prarambh Batch</p>
+                <p>
+                  One-to-One Evaluation<br>
+                  Offline and Online Test Discussions<br>
+                  One-to-One Mentorship<br>
+                  Special Focus on Current Affairs Questions
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/Sadhna_Series.png" class="img-fluid" alt="Sadhna Series">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Sadhna Series</p>
+                <p>
+                  One-to-One Evaluation<br>
+                  Offline and Online Test Discussions<br>
+                  One-to-One Mentorship<br>
+                  Special Focus on Current Affairs Questions
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/course/Awlokan_batch.png" class="img-fluid" alt="Awlokan Batch">
+              </div>
+              <div class="flip-card-back">
+                <p class="title">Awlokan Batch</p>
+                <p>
+                  Based on New Exam Pattern of BPSC<br>
+                  Offline and Online Test Discussions<br>
+                  Special Focus on Current Affairs Questions<br>
+                  One-to-One Mentorship
+              </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+    
+  </div>
 
-  <!-- <div class="col-md-4 col-sm-4">
-    <div class="content-block">
-      <figure class="shadow">
-        <img src="images/course/course_batch_.png" class="img-responsive" alt="img01" style="height: 252px;">
-        <figcaption>
-          <h4>Program Highlights</h4>
-          <span>
-            <ol>
-              <li>1 Year Program: NCERT FOUNDATION</li>
-              <li>History</li>
-              <li>Polity</li>
-              <li>Governance</li>
-              <li>Geography</li>
-              <li>Economics</li>
-              <li>Technology</li>
-              <li>General Science</li>
-              <li>Science & Ecology</li>
-              <li>Sociology</li>
-              <li>Environment</li>
-            </ol>
-          </span>
-        </figcaption>
-      </figure>
-    </div>
-  </div> -->
 
-  <!-- *************************************************** -->
+ <!-- service card -->
 
-  <!-- <div class="container-fluid success-note mb-5">
-      <div class="row d-flex align-items-stretch">
-        <div class="col-md-6 mb-4">
-          <div class="discover-card">
-            <p class="discover-card-title">ALS IAS Patna - Your Doorway to Success in Civil Services</p>
-            <p class="small-desc"><b>Discover</b> top-notch Civil Services coaching in Patna at ALS IAS Patna. Expert faculty, comprehensive
-              study material, and proven results. Enroll now for a successful career in civil services. At ALS IAS, we
-              believe in nurturing leaders who can transform society. Established with a vision to inspire and empower
-              aspirants to achieve their dreams of becoming Civil Servants, ALS IAS has been a beacon of excellence in the
-              field of competitive exam preparation.</p>
-            <div class="go-corner">
-              <div class="go-arrow">→</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="discover-card">
-            <p class="discover-card-title">ALS IAS Patna: Leading Civil Services Coaching in Bihar</p>
-            <p class="small-desc">Discover top-tier civil services coaching at ALS IAS Patna, recognized as Bihar's foremost institute for
-              nurturing future civil servants. With a proven track record of excellence, personalized guidance, and
-              comprehensive study materials, we empower aspirants to excel in Civil Services exams.</p>
-            <div class="go-corner">
-              <div class="go-arrow">→</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex align-items-stretch mt-5">
-        <div class="col-md-6 mb-4">
-          <div class="discover-card">
-            <p class="discover-card-title">ALS IAS Patna: Premier Civil Services Coaching in Bihar's Capital</p>
-            <p class="small-desc">Join ALS IAS Patna for top-notch civil services coaching in Patna. Expert faculty, comprehensive study
-              material, and proven success. Enroll today and pave your way to a successful career in civil services!</p>
-            <div class="go-corner">
-              <div class="go-arrow">→</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="discover-card">
-            <p class="discover-card-title">ALS IAS Patna: Premier Civil Services Coaching with Proven Results</p>
-            <p class="small-desc">Unlock your potential with ALS IAS Patna, renowned for top-tier UPSC/BPSC coaching in Patna. Experience
-              expert guidance, comprehensive study materials, and a legacy of success. Enroll today and pave your path to
-              becoming a civil servant!</p>
-            <div class="go-corner">
-              <div class="go-arrow">→</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-  <!-- Success Note -->
-
-  <!-- *************************************************** -->
-  <!-- <div class="container">
-    <div class="row">
-
-      <div class="col-md-6">
-        <section class="upcoming-section my-5">
-          <div class="container batch-section">
-            <h2 class="text-center mb-4">Upcoming Batches</h2>
-            <div id="upcomingBatchCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-
-                <div class="carousel-item active carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="Batch 1 Image" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Batch 1:</div>
-                  <p class="batch-info">Description of batch 1</p>
-                </div>
-
-                <div class="carousel-item carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="Batch 2 Image" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Batch 2:</div>
-                  <p class="batch-info">Description of batch 2</p>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#upcomingBatchCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#upcomingBatchCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-  
-      <div class="col-md-6">
-        <section class="blog-section my-5">
-          <div class="container batch-section">
-            <h2 class="text-center mb-4">Blog</h2>
-            <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-     
-                <div class="carousel-item active carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="Blog Image 1" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Blog Post 1:</div>
-                  <p class="batch-info">Summary of blog post 1</p>
-                </div>
-         
-                <div class="carousel-item carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="Blog Image 2" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Blog Post 2:</div>
-                  <p class="batch-info">Summary of blog post 2</p>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-  
-      <div class="col-md-6">
-        <section class="youtube-section my-5">
-          <div class="container batch-section">
-            <h2 class="text-center mb-4">YouTube Videos</h2>
-            <div id="youtubeCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-
-                <div class="carousel-item active carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="YouTube Video 1" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Video 1:</div>
-                  <p class="batch-info">Summary of video 1</p>
-                </div>
-            
-                <div class="carousel-item carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="YouTube Video 2" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Video 2:</div>
-                  <p class="batch-info">Summary of video 2</p>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#youtubeCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#youtubeCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-  
-      <div class="col-md-6">
-        <section class="upsc-result-section my-5">
-          <div class="container batch-section">
-            <h2 class="text-center mb-4">69th UPSC Result</h2>
-            <div id="upscResultCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-           
-                <div class="carousel-item active carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="Result Image 1" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Result 1:</div>
-                  <p class="batch-info">Details of result 1</p>
-                </div>
-              
-                <div class="carousel-item carousel-slide-item">
-                  <img src="images/course/Awlokan_batch.png" alt="Result Image 2" class="d-block w-100 carousel-image">
-                  <div class="batch-heading">Result 2:</div>
-                  <p class="batch-info">Details of result 2</p>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#upscResultCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#upscResultCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div> -->
-  
   <!-- *************************************************** -->
   <!-- Our Faculty -->
   <div class="container my-5">
@@ -1270,7 +892,7 @@
               <a href="https://www.youtube.com/@alsiaspatna_" target="_blank"><i class="fab fa-youtube"></i></a>
               <a href="https://t.me/alsiaspatna" target="_blank"><i class="fab fa-telegram"></i></a>
           </span>
-          
+
           </div>
         </div>
 
@@ -1365,14 +987,15 @@
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
-  <script>
-    // for form open on page load
 
-  // Wait until the DOM is fully loaded
+
+
+  <script>
+
   document.addEventListener('DOMContentLoaded', function () {
-    // Get the modal element
+
     var enquiryModal = new bootstrap.Modal(document.getElementById('enquiryModal'));
-    // Show the modal
+  
     enquiryModal.show();
   });
 

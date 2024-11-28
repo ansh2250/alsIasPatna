@@ -17,7 +17,7 @@ const pageContent = {
                           <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
                           <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
                           <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-                          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+                          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
                           <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
                       </ul>
                   </div>
@@ -235,7 +235,7 @@ const pageContent = {
                   <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
                   <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
                   <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-                  <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+                  <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
                   <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
               </ul>
           </div>
@@ -365,7 +365,7 @@ const pageContent = {
           <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
         </ul>
       </div>
@@ -424,7 +424,7 @@ const pageContent = {
           <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
         </ul>
       </div>
@@ -464,7 +464,7 @@ const pageContent = {
           <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
         </ul>
       </div>
@@ -516,7 +516,7 @@ const pageContent = {
           <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
         </ul>
       </div>
@@ -525,7 +525,7 @@ const pageContent = {
     <div class="col-md-8 child_content shadow mt-3 p-5">
       <div class="header-box">UPSC Annual Calendar 2024-25</div>
       <div class="content-text">
-      <img src="images/calender/UPSC Annual Calendar-2024-2025.jpg" class="img-fluid">
+      <img src="images/calender/UPSC Annual Calendar-2024-25_page-0001.jpg" class="img-fluid">
       </div>
     </div>
   </div>
@@ -549,7 +549,7 @@ const pageContent = {
           <li><a href="#" class="dropdown-item" onclick="loadContent('services_Offered')">Services Offered</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('syllabous_Upsc')">Syllabus of UPSC Exam</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('apply')">How to Apply</a></li>
-          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2023-24</a></li>
+          <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Annual')">UPSC Annual Calendar 2024-25</a></li>
           <li><a href="#" class="dropdown-item" onclick="loadContent('upsc_Question')">UPSC Question Bank</a></li>
         </ul>
       </div>
