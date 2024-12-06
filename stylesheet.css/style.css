@@ -404,131 +404,6 @@ color: var(--brand-bluebr);
   .success-content p {
     color: #555;
   }
-  /* success part */
-/* From Uiverse.io - DISCOVER CARD CSS */ 
-/* .discover-card-title {
-    color: #262626;
-    font-size: 1.5em;
-    line-height: normal;
-    font-weight: 700;
-    margin-bottom: 0.5em;
-  }
-  
-  .small-desc {
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5em;
-    color: #452c2c;
-  }
-  
-  .small-desc {
-    font-size: 1em;
-  }
-  
-  .go-corner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 2em;
-    height: 2em;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    background: linear-gradient(135deg, var(--brand-color), var(--brand-heading));
-    border-radius: 0 4px 0 32px;
-  }
-  
-  .go-arrow {
-    margin-top: -4px;
-    margin-right: -4px;
-    color: white;
-    font-family: courier, sans;
-  }
-  
-  
-  .discover-card {
-    display: block;
-    position: relative;
-    max-width: 100%;
-    height: 320px;
-    background-color: #f2f8f9;
-    border-radius: 10px;
-    padding: 2em 1.2em;
-    margin: 12px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    background: linear-gradient(to bottom, var(--brand-light), var(--brand-light));
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .discover-card:before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: -16px;
-    background: linear-gradient(135deg, var(--brand-blue), var(--brand-blue));
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
-    transform: scale(1);
-    transform-origin: 50% 50%;
-    transition: transform 0.35s ease-out;
-  }
-  
-  .discover-card:hover:before {
-    transform: scale(50);
-  }
-  
-  .discover-card:hover .small-desc {
-    transition: all 0.5s ease-out;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .discover-card:hover .discover-card-title {
-    transition: all 0.5s ease-out;
-    color: #ffffff;
-  } */
-
-
-
-   /* Batch Section Styling */
-/* .batch-section {
-  max-width: 600px;
-  margin: auto;
-  padding: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  background: var(--brand-heading);
-}
-
-.batch-heading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--brand-color);
-}
-
-.batch-info {
-  font-size: 1rem;
-  color: #000000;
-  text-align: center;
-}
-
-.carousel-slide-item {
-  padding: 20px;
-  text-align: center;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: var(--brand-color);
-  border-radius: 50%;
-} */
-
-  /* success part */
-
  
   /* *************************************************** */
 /* accordion css */
@@ -675,6 +550,40 @@ p {
   .swiper-button-prev, .swiper-button-next {
     color: #007bff;
   }
+
+  .youtube-thumbnail {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .swiper-slide {
+    position: relative;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
 /* video part */
 .container-video {
     position: relative;
@@ -760,42 +669,6 @@ p {
 .button button:hover {
     background: #ababab;
     color: #fff;
-}
-
-.map-section {
-    background-color: var(--brand-light);
-    padding: 60px 20px;
-    color: var(--black);
-}
-
-.map-section .section-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.map-section .section-header h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: var(--brand-heading);
-}
-
-.map-section .section-header p {
-    font-size: 18px;
-    color: var(--brand-dark);
-}
-
-.map-container {
-    width: 100%;
-    height: 450px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.map-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
 }
 
 /* video part */

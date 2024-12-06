@@ -61,7 +61,7 @@ li{
   /* Fixed button styles */
   .fixed-enquiry-btn {
     position: fixed;
-    right: 5px;
+    right: 15px;
     bottom: 20px;
     background-color: var(--brand-color);
     color: #fff;
