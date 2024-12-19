@@ -57,7 +57,7 @@ const pageContent = {
         </div>
 
         <div class="col-md-8 child_content shadow mt-3 p-5">
-        <img src="images/faculty/manojkumarsingh.jpg" class="img-fluid">
+        <img src="images/faculty/manojkumarsingh.webp" class="img-fluid">
         <h3>Manoj K Singh</h3>
         <h6>Managing Director</h6>
 
@@ -77,7 +77,7 @@ const pageContent = {
 
         <hr>
 
-        <img src="images/faculty/manishkgautam.jpg" class="img-fluid">
+        <img src="images/faculty/manishkgautam.webp" class="img-fluid">
         <h3>Manish K Gautam</h3>
         <h6>Chief Executive Director</h6>
 
@@ -91,7 +91,7 @@ const pageContent = {
 
         <hr>
 
-        <img src="images/faculty/jojomethew.jpg" class="img-fluid">
+        <img src="images/faculty/jojomethew.webp" class="img-fluid">
         <h3>Jojo Mathew</h3>
         <h6>Chief Operating Officer</h6>
 
